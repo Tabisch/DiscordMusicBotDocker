@@ -2,12 +2,12 @@
 
 Based on https://github.com/jagrosh/MusicBot
 
-##Envs
-###Mandatory
+## Envs
+### Mandatory
 TOKEN=0
 OWNER=0
 
-###Optional with default values
+### Optional with default values
 PREFIX="!!"
 GAME="Default"
 STATUS="ONLINE"

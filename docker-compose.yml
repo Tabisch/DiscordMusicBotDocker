@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  bot:
+    image: tabisch/musicbot
+    environment:
+      token: "*BotToken*"
+      owner: "*ownerID*"
+      prefix: "!!"

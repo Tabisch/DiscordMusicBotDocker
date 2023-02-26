@@ -30,6 +30,25 @@ RUN chmod +x /app/start.sh
 
 ENV token=0
 ENV owner=0
-ENV prefix="!"
+ENV prefix="!!"
+ENV game="Default"
+ENV status="ONLINE"
+ENV songinstatus="false"
+ENV altprefix="NONE"
+
+ENV success = "🎶"
+ENV warning = "💡"
+ENV error = "🚫"
+ENV loading = "⌚"
+ENV searching = "🔎"
+
+ENV help = help
+ENV npimages = false
+ENV stayinchannel = false
+ENV maxtime = 0
+ENV alonetimeuntilstop = 0
+ENV playlistsfolder = "Playlists"
+ENV updatealerts="true"
+ENV lyrics.default = "A-Z Lyrics"
 
 ENTRYPOINT ["/bin/bash", "/app/start.sh"]

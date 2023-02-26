@@ -25,6 +25,7 @@ WORKDIR /app
 
 COPY --from=download /app/musicBot.jar /app
 COPY start.sh /app
+COPY config.txt /app
 
 RUN chmod +x /app/start.sh
 

@@ -29,27 +29,27 @@ COPY config.txt /app
 
 RUN chmod +x /app/start.sh
 
-ENV token=0
-ENV owner=0
-ENV prefix="!!"
-ENV game="Default"
-ENV status="ONLINE"
-ENV songinstatus="false"
-ENV altprefix="NONE"
+ENV TOKEN=0
+ENV OWNER=0
+ENV PREFIX="!!"
+ENV GAME="Default"
+ENV STATUS="ONLINE"
+ENV SONGINSTATUS=false
+ENV ALTPREFIX="NONE"
 
-ENV success = "🎶"
-ENV warning = "💡"
-ENV error = "🚫"
-ENV loading = "⌚"
-ENV searching = "🔎"
+ENV SUCCESS="🎶"
+ENV WARNING="💡"
+ENV ERROR="🚫"
+ENV LOADING="⌚"
+ENV SEARCHING="🔎"
 
-ENV help = help
-ENV npimages = false
-ENV stayinchannel = false
-ENV maxtime = 0
-ENV alonetimeuntilstop = 0
-ENV playlistsfolder = "Playlists"
-ENV updatealerts="true"
-ENV lyrics.default = "A-Z Lyrics"
+ENV HELP="help"
+ENV NPIMAGES=false
+ENV STAYINCHANNEL=false
+ENV MAXTIME=0
+ENV ALONETIMEUNTILSTOP=0
+ENV PLAYLISTSFOLDER="Playlists"
+ENV UPDATEALERTS=true
+ENV LYRICS_DEFAULT="A-Z Lyrics"
 
 ENTRYPOINT ["/bin/bash", "/app/start.sh"]

@@ -4,6 +4,23 @@ services:
   bot:
     image: tabisch/musicbot
     environment:
-      token: "*BotToken*"
-      owner: "*ownerID*"
-      prefix: "!!"
+      TOKEN: 0
+      OWNER: 0
+      # PREFIX: "!!"
+      # GAME: "Default"
+      # STATUS: "ONLINE"
+      # SONGINSTATUS: false
+      # ALTPREFIX: "NONE"
+      # SUCCESS: "🎶"
+      # WARNING: "💡"
+      # ERROR: "🚫"
+      # LOADING: "⌚"
+      # SEARCHING: "🔎"
+      # HELP: "help"
+      # NPIMAGES: false
+      # STAYINCHANNEL: false
+      # MAXTIME: 0
+      # ALONETIMEUNTILSTOP: 0
+      # PLAYLISTSFOLDER: "Playlists"
+      # UPDATEALERTS: true
+      # LYRICS_DEFAULT: "A-Z Lyrics"

@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   bot:
-    image: tabisch/discordmusicbot
+    image: tabisch/discordmusicbot:latest
     environment:
       TOKEN: 0
       OWNER: 0

@@ -9,4 +9,6 @@ read -p "TAG_NAME:" tag_name
 
 docker build -t "tabisch/discordmusicbot:$tag_name" -t "tabisch/discordmusicbot:latest" .
 
-docker push "tabisch/discordmusicbot:$tag_name" "tabisch/discordmusicbot:latest"
+docker push "tabisch/discordmusicbot:latest"
+
+docker push "tabisch/discordmusicbot:$tag_name"

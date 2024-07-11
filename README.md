@@ -1,4 +1,5 @@
 # DiscordMusicBotDocker
+Current Version 0.4.2
 
 Based on https://github.com/jagrosh/MusicBot
 
